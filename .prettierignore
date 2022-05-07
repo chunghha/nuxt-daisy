@@ -1,0 +1,6 @@
+node_modules
+.nuxt
+.output
+gql/**/*.ts
+plugins/urql.ts
+nuxt.config.ts
