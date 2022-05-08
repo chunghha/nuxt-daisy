@@ -1,8 +1,14 @@
-<script setup lang="ts">
+<script lang="ts">
+import { defineComponent } from 'vue';
 import { useCounterStore } from '../store/counter';
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const counter = useCounterStore();
+export default defineComponent({
+  setup() {
+    const counter = useCounterStore();
+
+    return { counter };
+  }
+})
 </script>
 
 <template>
