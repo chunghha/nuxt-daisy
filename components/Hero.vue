@@ -1,3 +1,10 @@
+<script setup lang="ts">
+import { useCounterStore } from '../store/counter';
+
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+const counter = useCounterStore();
+</script>
+
 <template>
   <div class="hero min-h-screen" style="background-image: url(https://api.lorem.space/image/drink?w=1000&h=800);">
     <div class="hero-overlay bg-opacity-60"></div>
@@ -13,4 +20,10 @@
       </div>
     </div>
   </div>
+  <div class="m-2 text-center text-neutral-content">
+    <button class="mr-2 btn btn-circle btn-sm text-accent" @click="counter.decrease">-</button>
+    Counter: {{ counter.count }}
+    <button class="ml-2 btn btn-circle btn-sm text-accent" @click="counter.increase">+</button>
+  </div>
 </template>
+
