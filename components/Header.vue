@@ -1,3 +1,16 @@
+<script lang="ts">
+import { useNow } from '@vueuse/core';
+import { defineComponent } from 'vue';
+
+export default defineComponent({
+  setup() {
+    const now = useNow();
+
+    return { now };
+  }
+})
+</script>
+
 <template>
   <div class="navbar bg-base-100">
     <div class="navbar-start">
@@ -36,6 +49,7 @@
           <span class="badge badge-xs badge-primary indicator-item"></span>
         </div>
       </button>
+      <button class="ml-8 mr-4 btn btn-sm btn-shape btn-primary">{{ now.toLocaleTimeString() }}</button>
     </div>
   </div>
 </template>

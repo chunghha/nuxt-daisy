@@ -21,6 +21,7 @@
     "@tailwindcss/typography": "^0.5.2",
     "@typescript-eslint/eslint-plugin": "^5.22.0",
     "@typescript-eslint/parser": "^5.22.0",
+    "@vueuse/nuxt": "^8.4.2",
     "daisyui": "^2.14.3",
     "eslint": "^8.14.0",
     "eslint-config-prettier": "^8.5.0",
