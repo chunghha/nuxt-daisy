@@ -10,18 +10,23 @@
     "preview": "nuxt preview",
     "format": "prettier --write \"**/*.ts\"",
     "lint": "eslint . --fix --ext .js,.jsx,.ts,.tsx,.vue",
-    "check:all": "yarn lint && yarn format"
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
+    "check:all": "yarn lint && yarn format && yarn coverage"
   },
   "dependencies": {
     "pinia": "^2.0.14"
   },
   "devDependencies": {
+    "@nuxt/test-utils-edge": "^3.0.0-rc.2-27530889.9e5a3cd",
     "@nuxtjs/tailwindcss": "^5.0.4",
     "@pinia/nuxt": "^0.1.9",
+    "@pinia/testing": "^0.0.12",
     "@tailwindcss/typography": "^0.5.2",
-    "@typescript-eslint/eslint-plugin": "^5.22.0",
-    "@typescript-eslint/parser": "^5.22.0",
+    "@typescript-eslint/eslint-plugin": "^5.23.0",
+    "@typescript-eslint/parser": "^5.23.0",
     "@vueuse/nuxt": "^8.4.2",
+    "c8": "^7.11.2",
     "daisyui": "^2.14.3",
     "eslint": "^8.14.0",
     "eslint-config-prettier": "^8.5.0",
@@ -29,6 +34,7 @@
     "eslint-plugin-vue": "^8.7.1",
     "nuxt": "3.0.0-rc.2",
     "prettier": "^2.6.2",
-    "typescript": "~4.6.4"
+    "typescript": "~4.6.4",
+    "vitest": "^0.12.3"
   }
 }
