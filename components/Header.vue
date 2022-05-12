@@ -1,4 +1,4 @@
-<script lang="ts">
+<script lang='ts'>
 import { useNow } from '@vueuse/core';
 import { defineComponent } from 'vue';
 
@@ -8,7 +8,7 @@ export default defineComponent({
 
     return { now };
   }
-})
+});
 </script>
 
 <template>

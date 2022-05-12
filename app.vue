@@ -1,8 +1,14 @@
-<script setup lang="ts">
+<script lang='ts'>
+import { defineComponent } from 'vue';
 import { useRoute } from 'vue-router';
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const route = useRoute()
+export default defineComponent({
+  setup() {
+    const route = useRoute();
+
+    return { route };
+  }
+})
 </script>
 
 <template>

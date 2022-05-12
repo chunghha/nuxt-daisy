@@ -1,4 +1,4 @@
-<script lang="ts">
+<script lang='ts'>
 import { defineComponent } from 'vue';
 import { useCounterStore } from '../store/counter';
 
@@ -8,7 +8,7 @@ export default defineComponent({
 
     return { counter };
   }
-})
+});
 </script>
 
 <template>
