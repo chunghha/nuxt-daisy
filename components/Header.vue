@@ -22,16 +22,16 @@ export default defineComponent({
         </label>
         <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
           <li>
-            <NuxtLink to="/" class="n-link-base">Homepage</NuxtLink>
+            <NuxtLink to="/" class="font-poppins n-link-base">Homepage</NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/about" class="n-link-base">About</NuxtLink>
+            <NuxtLink to="/about" class="font-poppins n-link-base">About</NuxtLink>
           </li>
         </ul>
       </div>
     </div>
     <div class="navbar-center">
-      <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+      <a class="btn btn-ghost font-poppins normal-case text-xl">daisyUI</a>
     </div>
     <div class="navbar-end">
       <button class="btn btn-ghost btn-circle">

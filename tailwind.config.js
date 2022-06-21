@@ -2,6 +2,11 @@ module.exports = {
   content: [],
   theme: {
     extend: {},
+    fontFamily: {
+      'inter': ['inter', 'sans-serif'],
+      'poppins': ['poppins', 'serif'],
+      'space-mono': ['space-mono']
+    },
   },
   plugins: [require("@tailwindcss/typography"), require("daisyui")],
   // daisyUI config (optional)

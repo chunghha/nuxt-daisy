@@ -1,4 +1,7 @@
 <script lang='ts'>
+import "@fontsource/inter";
+import "@fontsource/poppins";
+import "@fontsource/space-mono";
 import { defineComponent } from 'vue';
 import { useRoute } from 'vue-router';
 

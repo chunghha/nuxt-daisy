@@ -3,7 +3,7 @@ import { breakpointsTailwind, useBreakpoints } from '@vueuse/core';
 import { defineComponent } from 'vue';
 
 export default defineComponent({
-  setup() {
+  async setup() {
     const breakpoints = useBreakpoints(breakpointsTailwind);
 
     const sm = breakpoints.smaller('sm');
