@@ -1,22 +1,16 @@
-<script lang='ts'>
-import { defineComponent } from 'vue';
+<script setup lang='ts'>
 import { useCounterStore } from '../store/counter';
 
-export default defineComponent({
-  setup() {
-    const counter = useCounterStore();
+const counter = useCounterStore();
 
-    return { counter };
-  }
-});
 </script>
 
 <template>
-  <div class="hero min-h-screen" style="background-image: url(https://api.lorem.space/image/drink?w=1000&h=800);">
-    <div class="hero-overlay bg-opacity-60"></div>
+  <div class="hero min-h-screen" style="background-image: url(https://api.lorem.space/image/shoes?w=1000&h=800);">
+    <div class="hero-overlay bg-opacity-45"></div>
     <div class="hero-content text-center text-neutral-content">
       <div class="max-w-md">
-        <h1 class="font-bold font-poppinsmb-5 text-5xl">Hello there</h1>
+        <h1 class="font-bold font-poppins mb-5 text-5xl">Hello there</h1>
         <p class="font-inter mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
           incididunt ut
           labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -27,7 +21,7 @@ export default defineComponent({
       </div>
     </div>
   </div>
-  <div class="m-2 text-center text-neutral-content">
+  <div class="font-poppins m-2 text-center text-neutral-content">
     <button class="mr-2 btn btn-circle btn-sm text-accent" @click="counter.decrease">-</button>
     Counter: {{ counter.count }}
     <button class="ml-2 btn btn-circle btn-sm text-accent" @click="counter.increase">+</button>

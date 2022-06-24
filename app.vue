@@ -1,21 +1,16 @@
-<script lang='ts'>
+<script setup lang='ts'>
 import "@fontsource/inter";
 import "@fontsource/poppins";
 import "@fontsource/space-mono";
-import { defineComponent } from 'vue';
 import { useRoute } from 'vue-router';
+import { useThemeStore } from "./store/theme";
 
-export default defineComponent({
-  setup() {
-    const route = useRoute();
-
-    return { route };
-  }
-})
+const route = useRoute();
+const themeStore = useThemeStore();
 </script>
 
 <template>
-  <div data-theme="rosepine">
+  <div :data-theme="themeStore.theme.dark ? 'rosepine' : 'dawn'">
     <div class="m-2">
       Current route: <code>{{ route.path }}</code>
     </div>

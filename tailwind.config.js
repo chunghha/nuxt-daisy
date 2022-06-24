@@ -13,6 +13,19 @@ module.exports = {
   daisyui: {
     themes: [
       {
+        dawn: {
+          "primary": "#d7827e",
+          "secondary": "#286983",
+          "accent": "#b4637a",
+          "neutral": "#f2e9e1",
+          "base-100": "#faf4ed",
+          "info": "#56949f",
+          "success": "#907aa9",
+          "warning": "#ea9d34",
+          "error": "#eb6f92",
+        },
+      },
+      {
         rosepine: {
           "primary": "#ea9a97",
           "secondary": "#3e8fb0",
