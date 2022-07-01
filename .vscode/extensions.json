@@ -3,6 +3,7 @@
     "vue.volar",
     "dbaeumer.vscode-eslint",
     "aaron-bond.better-comments",
+    "esbenp.prettier-vscode",
     "bradlc.vscode-tailwindcss",
     "ZixuanChen.vitest-explorer"
   ]

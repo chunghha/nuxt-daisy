@@ -1,7 +1,8 @@
 <template>
-  <div>
-    <Header />
-    <Hero />
-    <Footer />
-  </div>
+	<div>
+		<Header />
+		<Hero />
+		<Footer />
+	</div>
 </template>
+;
