@@ -1,5 +1,10 @@
 module.exports = {
-	content: ['./**/*.{html,js,ts,vue}'],
+	content: [
+		'./components/*.{html,js,ts,vue}',
+		'./layouts/*.{html,js,ts,vue}',
+		'./pages/*.{html,js,ts,vue}',
+		'./app.vue'
+	],
 	theme: {
 		extend: {},
 		fontFamily: {
