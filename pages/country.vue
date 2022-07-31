@@ -1,3 +1,3 @@
 <template>
-	<Breakpoint />
+	<Countries />
 </template>

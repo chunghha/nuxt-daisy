@@ -14,6 +14,7 @@ const themeStore = useThemeStore();
 		<div class="m-2">
 			Current route: <code>{{ route.path }}</code>
 		</div>
+		<Header />
 		<NuxtPage />
 		<NuxtLayout name="custom" />
 	</div>

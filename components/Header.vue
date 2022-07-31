@@ -31,10 +31,13 @@ const themeStore = useThemeStore();
 					class="dropdown-content menu rounded-box menu-compact mt-3 w-52 bg-base-100 p-2 shadow"
 				>
 					<li>
-						<NuxtLink to="/" class="n-link-base font-poppins">Homepage</NuxtLink>
+						<NuxtLink to="/" class="n-link-base font-poppins">Home</NuxtLink>
 					</li>
 					<li>
 						<NuxtLink to="/about" class="n-link-base font-poppins">About</NuxtLink>
+					</li>
+					<li>
+						<NuxtLink to="/country" class="n-link-base font-poppins">Country</NuxtLink>
 					</li>
 				</ul>
 			</div>
