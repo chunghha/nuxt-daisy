@@ -5,6 +5,7 @@ export default defineNuxtConfig({
   buildModules: [
     '@nuxtjs/tailwindcss',
     '@pinia/nuxt',
+    '@vueuse/nuxt',
   ],
   typescript: { strict: true }
 })

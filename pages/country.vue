@@ -1,5 +1,5 @@
 <template>
 	<div>
-		<Footer />
+		<Countries />
 	</div>
 </template>
