@@ -1,7 +1,7 @@
 <!-- eslint-disable no-undef -->
 <script setup lang="ts">
 const { data, error } = await useFetch('https://restcountries.com/v3.1/all');
-const fetchError = useState('error', () => error.value.toString());
+const fetchError = useState('error', () => error.value?.toString());
 </script>
 
 <template>
