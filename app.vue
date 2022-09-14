@@ -1,7 +1,7 @@
 <script setup lang="ts">
+import '@fontsource/fira-mono';
 import '@fontsource/inter';
 import '@fontsource/poppins';
-import '@fontsource/space-mono';
 import { THEMES, useThemeStore } from './store/theme';
 
 const themeStore = useThemeStore();
