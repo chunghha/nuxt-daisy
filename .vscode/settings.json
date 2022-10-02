@@ -1,16 +1,7 @@
 {
-  "[typescript]": {
-    "editor.formatOnSave": true,
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true,
-      "source.organizeImports": true
-    },
-  },
-  "[vue]": {
-    "editor.formatOnSave": true,
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true,
-      "source.organizeImports": true
-    },
-  },
+  "prettier.enable": false,
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
 }

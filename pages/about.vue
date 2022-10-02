@@ -1,6 +1,6 @@
 <template>
-	<div>
-		<Breakpoint />
-		<p class="text-inter p-8 text-center">This is a Nuxt demo that uses the Country API.</p>
-	</div>
+  <div>
+    <Breakpoint />
+    <p class="text-inter p-8 text-center">This is a Nuxt demo that uses the Country API.</p>
+  </div>
 </template>

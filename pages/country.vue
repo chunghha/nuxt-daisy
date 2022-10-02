@@ -1,5 +1,5 @@
 <template>
-	<div>
-		<Countries />
-	</div>
+  <div>
+    <Countries />
+  </div>
 </template>

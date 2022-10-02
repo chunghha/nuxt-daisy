@@ -7,5 +7,5 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@vueuse/nuxt',
   ],
-  typescript: { strict: true }
+  typescript: { strict: true },
 })
