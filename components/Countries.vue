@@ -1,5 +1,7 @@
 <!-- eslint-disable no-undef -->
 <script setup lang="ts">
+import { Country } from '../models/country'
+
 const { data, error } = await useFetch('https://restcountries.com/v3.1/all')
 const fetchError = useState('error', () => error.value?.toString())
 </script>
@@ -7,7 +9,7 @@ const fetchError = useState('error', () => error.value?.toString())
 <template>
   <div v-if="data">
     <div class="grid grid-cols-1 gap-4 py-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-      <div v-for="country in data" :key="country.name">
+      <div v-for="country in data as Country[]" :key="country.name.official">
         <div
           class="w-84 card card-compact bg-base-100 shadow-xl transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg"
         >
@@ -17,7 +19,7 @@ const fetchError = useState('error', () => error.value?.toString())
               {{ country.name.official }}
             </h2>
             <p class="font-inter text-xl text-warning">
-              {{ (country.capital as string[])?.[0] ?? '' }}
+              {{ (country.capital)?.[0] ?? '' }}
             </p>
             <div v-if="country.population > 0">
               <p class="font-inter text-lg text-info">
