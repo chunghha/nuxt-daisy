@@ -18,35 +18,35 @@
     "check:all": "yarn format && yarn lint && yarn coverage"
   },
   "dependencies": {
-    "pinia": "^2.0.23"
+    "pinia": "^2.0.24"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.27.0",
+    "@antfu/eslint-config": "^0.31.0",
     "@fontsource/fira-mono": "^4.5.10",
     "@fontsource/inter": "^4.5.14",
     "@fontsource/poppins": "^4.5.10",
-    "@nuxt/test-utils-edge": "^3.0.0-rc.13-27772354.a0a59e2",
-    "@nuxtjs/tailwindcss": "^6.1.0",
-    "@pinia/nuxt": "^0.4.3",
+    "@nuxt/test-utils-edge": "^3.0.1-rc.0-27810184.d991a55",
+    "@nuxtjs/tailwindcss": "^6.1.3",
+    "@pinia/nuxt": "^0.4.4",
     "@pinia/testing": "^0.0.14",
-    "@tailwindcss/typography": "^0.5.7",
-    "@typescript-eslint/eslint-plugin": "^5.40.1",
-    "@typescript-eslint/parser": "^5.40.1",
-    "@vitest/coverage-c8": "^0.24.3",
-    "@vueuse/nuxt": "^9.3.1",
+    "@tailwindcss/typography": "^0.5.8",
+    "@typescript-eslint/eslint-plugin": "^5.43.0",
+    "@typescript-eslint/parser": "^5.43.0",
+    "@vitest/coverage-c8": "^0.25.2",
+    "@vueuse/nuxt": "^9.5.0",
     "c8": "^7.12.0",
-    "daisyui": "^2.33.0",
-    "eslint": "^8.26.0",
+    "daisyui": "^2.41.0",
+    "eslint": "^8.28.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-vue": "^9.6.0",
-    "nuxt": "3.0.0-rc.12",
-    "nuxt-server-fn": "^0.2.5",
-    "postcss": "^8.4.18",
+    "eslint-plugin-vue": "^9.7.0",
+    "nuxt": "~3.0.0",
+    "nuxt-server-fn": "^0.3.0",
+    "postcss": "^8.4.19",
     "postcss-load-config": "^4.0.1",
     "prettier": "^2.7.1",
     "prettier-plugin-tailwindcss": "^0.1.13",
-    "typescript": "~4.8.4",
-    "vitest": "^0.24.3"
+    "typescript": "~4.9.3",
+    "vitest": "^0.25.2"
   }
 }
