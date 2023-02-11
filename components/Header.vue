@@ -10,7 +10,7 @@ const themeStore = useThemeStore()
   <div class="navbar mb-2 bg-neutral shadow-lg">
     <div class="navbar-start">
       <div class="dropdown">
-        <label tabindex="0" class="btn btn-ghost btn-circle">
+        <label tabindex="0" class="btn-ghost btn-circle btn">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="h-5 w-5"
@@ -43,10 +43,10 @@ const themeStore = useThemeStore()
       </div>
     </div>
     <div class="navbar-center">
-      <a class="btn btn-ghost font-poppins text-xl normal-case">daisyUI</a>
+      <a class="btn-ghost btn font-poppins text-xl normal-case">daisyUI</a>
     </div>
     <div class="navbar-end">
-      <button class="btn btn-ghost btn-circle" @click="themeStore.toggle">
+      <button class="btn-ghost btn-circle btn" @click="themeStore.toggle">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -63,7 +63,7 @@ const themeStore = useThemeStore()
           />
         </svg>
       </button>
-      <button class="btn-shape btn btn-ghost ml-8 mr-4">{{ now.toLocaleTimeString() }}</button>
+      <button class="btn-shape btn-ghost btn ml-8 mr-4">{{ now.toLocaleTimeString() }}</button>
     </div>
   </div>
 </template>

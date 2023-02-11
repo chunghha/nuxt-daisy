@@ -19,7 +19,7 @@ const fetchError = useState('error', () => error.value?.toString())
               {{ country.name.official }}
             </h2>
             <p class="font-inter text-xl text-warning">
-              {{ (country.capital)?.[0] ?? '' }}
+              {{ country.capital?.[0] ?? '' }}
             </p>
             <div v-if="country.population > 0">
               <p class="font-inter text-lg text-info">

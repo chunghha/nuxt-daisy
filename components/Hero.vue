@@ -21,13 +21,13 @@ const counter = useCounterStore()
           sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
           est laborum.
         </p>
-        <button class="btn btn-primary font-poppins">Get Started</button>
+        <button class="btn-primary btn font-poppins">Get Started</button>
       </div>
     </div>
   </div>
   <div class="m-2 text-center font-poppins text-neutral-content">
-    <button class="btn btn-circle btn-sm mr-2 text-accent" @click="counter.decrease">-</button>
+    <button class="btn-sm btn-circle btn mr-2 text-accent" @click="counter.decrease">-</button>
     Counter: {{ counter.count }}
-    <button class="btn btn-circle btn-sm ml-2 text-accent" @click="counter.increase">+</button>
+    <button class="btn-sm btn-circle btn ml-2 text-accent" @click="counter.increase">+</button>
   </div>
 </template>
