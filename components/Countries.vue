@@ -1,6 +1,6 @@
 <!-- eslint-disable no-undef -->
 <script setup lang="ts">
-import { Country } from '../models/country'
+import type { Country } from '../models/country'
 
 const { data, error } = await useFetch('https://restcountries.com/v3.1/all')
 const fetchError = useState('error', () => error.value?.toString())
