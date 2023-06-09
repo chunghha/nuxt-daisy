@@ -9,7 +9,7 @@ const themeStore = useThemeStore()
 <template>
   <div class="navbar mb-2 bg-neutral shadow-lg">
     <div class="navbar-start">
-      <div class="dropdown">
+      <div class="dropdown z-[1000]">
         <label tabindex="0" class="btn-ghost btn-circle btn">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -28,7 +28,7 @@ const themeStore = useThemeStore()
         </label>
         <ul
           tabindex="0"
-          class="dropdown-content menu rounded-box menu-compact mt-3 w-52 bg-base-100 p-2 shadow"
+          class="menu-compact dropdown-content menu rounded-box mt-3 w-52 bg-base-100 p-2 shadow"
         >
           <li>
             <NuxtLink to="/" class="n-link-base font-poppins">Home</NuxtLink>
