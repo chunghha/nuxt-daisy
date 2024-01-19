@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import 'assets/css/main.css'
 import { THEMES, useThemeStore } from './store/theme'
 
 const themeStore = useThemeStore()

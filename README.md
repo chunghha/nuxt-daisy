@@ -15,7 +15,7 @@ yarn install
 ## Tailwindcss / DaisyUI
 
 - Install @nuxtjs/tailwindcss and daisyui
-  
+
 ```bash
 yarn add --dev @nuxtjs/tailwindcss
 yarn add --dev daisyui

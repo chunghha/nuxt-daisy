@@ -1,4 +1,5 @@
 import { defineStore } from 'pinia'
+import { ref } from 'vue'
 
 export const THEMES = {
   DARK: 'rosepine',
@@ -6,10 +7,10 @@ export const THEMES = {
 }
 
 export const useThemeStore = defineStore('theme', () => {
-  const theme = reactive({ dark: false })
+  const theme = ref({ dark: false })
 
   function toggle() {
-    theme.dark = !theme.dark
+    theme.value.dark = !theme.value.dark
   }
 
   return { theme, toggle }

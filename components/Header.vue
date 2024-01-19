@@ -31,13 +31,19 @@ const themeStore = useThemeStore()
           class="menu-compact dropdown-content menu rounded-box mt-3 w-52 bg-base-100 p-2 shadow"
         >
           <li>
-            <NuxtLink to="/" class="n-link-base font-poppins">Home</NuxtLink>
+            <NuxtLink to="/" class="n-link-base font-poppins">
+              Home
+            </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/about" class="n-link-base font-poppins">About</NuxtLink>
+            <NuxtLink to="/about" class="n-link-base font-poppins">
+              About
+            </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/country" class="n-link-base font-poppins">Country</NuxtLink>
+            <NuxtLink to="/country" class="n-link-base font-poppins">
+              Country
+            </NuxtLink>
           </li>
         </ul>
       </div>
@@ -63,7 +69,9 @@ const themeStore = useThemeStore()
           />
         </svg>
       </button>
-      <button class="btn-shape btn-ghost btn ml-8 mr-4">{{ now.toLocaleTimeString() }}</button>
+      <button class="btn-shape btn-ghost btn ml-8 mr-4">
+        {{ now.toLocaleTimeString() }}
+      </button>
     </div>
   </div>
 </template>
