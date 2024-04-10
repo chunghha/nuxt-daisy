@@ -5,6 +5,6 @@
     "aaron-bond.better-comments",
     "esbenp.prettier-vscode",
     "bradlc.vscode-tailwindcss",
-    "ZixuanChen.vitest-explorer"
+    "vitest.explorer"
   ]
 }
