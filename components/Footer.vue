@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer items-center bg-base-100 p-4 text-neutral-content">
+  <footer class="footer items-center bg-base-100 p-4 text-contrast-content">
     <div class="grid-flow-col items-center text-secondary">
       <svg
         width="36"

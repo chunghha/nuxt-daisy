@@ -7,7 +7,7 @@ const counter = useCounterStore()
 <template>
   <div class="hero">
     <div class="bg-opacity-45 hero-overlay" />
-    <div class="hero-content text-center text-neutral-content">
+    <div class="hero-content text-center text-contrast-content">
       <div class="max-w-md">
         <h1 class="mb-5 font-poppins text-5xl font-bold">
           Hello there
@@ -26,7 +26,7 @@ const counter = useCounterStore()
       </div>
     </div>
   </div>
-  <div class="m-2 text-center font-poppins text-neutral-content">
+  <div class="m-2 text-center font-poppins text-contrast-content">
     <button class="btn-sm btn-circle btn mr-2 text-accent shadow-md" @click="counter.decrease">
       -
     </button>

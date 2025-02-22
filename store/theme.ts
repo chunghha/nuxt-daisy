@@ -2,8 +2,8 @@ import { defineStore } from 'pinia'
 import { ref } from 'vue'
 
 export const THEMES = {
-  DARK: 'rosepine',
-  LIGHT: 'dawn',
+  DARK: 'dark',
+  LIGHT: 'light',
 }
 
 export const useThemeStore = defineStore('theme', () => {

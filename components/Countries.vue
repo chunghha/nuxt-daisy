@@ -28,7 +28,7 @@ const fetchError = useState('error', () => error.value?.toString())
                 </p>
               </div>
               <div class="card-actions justify-end">
-                <button class="btn-neutral btn font-inter rounded-full px-8 shadow-md">
+                <button class="btn-secondary btn font-inter rounded-full px-8 shadow-md">
                   Details
                 </button>
               </div>
