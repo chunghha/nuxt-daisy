@@ -1,5 +1,5 @@
 <template>
-  <div class="h-80v min-h-80v">
+  <div class="h-fit min-h-fit">
     <Hero />
   </div>
 </template>
